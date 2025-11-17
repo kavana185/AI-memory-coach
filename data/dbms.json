@@ -1,0 +1,147 @@
+[
+  {
+    "id": "1",
+    "question": "What does ACID stand for?",
+    "options": [
+      "Atomicity, Consistency, Isolation, Durability",
+      "Accuracy, Control, Integrity, Dependability",
+      "Access, Consistency, Indexing, Data",
+      "Atomic, Concurrent, Isolation, Database"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "2",
+    "question": "Which normal form removes transitive dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer_index": 2
+  },
+  {
+    "id": "3",
+    "question": "Primary key cannot have which value?",
+    "options": ["Unique value", "NULL", "Integer", "String"],
+    "answer_index": 1
+  },
+  {
+    "id": "4",
+    "question": "Foreign key is used to?",
+    "options": [
+      "Uniquely identify a record",
+      "Refer to primary key of another table",
+      "Index a table",
+      "Store multiple values"
+    ],
+    "answer_index": 1
+  },
+  {
+    "id": "5",
+    "question": "Which SQL command is used to remove a table?",
+    "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+    "answer_index": 1
+  },
+  {
+    "id": "6",
+    "question": "Which command retrieves data from a database?",
+    "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+    "answer_index": 0
+  },
+  {
+    "id": "7",
+    "question": "Which normal form eliminates partial dependency?",
+    "options": ["1NF", "2NF", "3NF", "BCNF"],
+    "answer_index": 1
+  },
+  {
+    "id": "8",
+    "question": "Which DBMS model stores data in tables?",
+    "options": ["Hierarchical", "Network", "Relational", "Document"],
+    "answer_index": 2
+  },
+  {
+    "id": "9",
+    "question": "SQL stands for?",
+    "options": [
+      "Structured Query Language",
+      "Simple Query Language",
+      "Sequential Query Logic",
+      "Structured Question Language"
+    ],
+    "answer_index": 0
+  },
+  {
+    "id": "10",
+    "question": "Which constraint ensures unique values in a column?",
+    "options": ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "CHECK"],
+    "answer_index": 2
+  },
+  {
+    "id": "11",
+    "question": "Which SQL command is used to modify data?",
+    "options": ["INSERT", "UPDATE", "ALTER", "DROP"],
+    "answer_index": 1
+  },
+  {
+    "id": "12",
+    "question": "Which type of join returns all records from both tables with NULLs where no match?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL OUTER JOIN"],
+    "answer_index": 3
+  },
+  {
+    "id": "13",
+    "question": "Transaction that cannot be undone is called?",
+    "options": ["Atomic", "Durable", "Consistent", "Irreversible"],
+    "answer_index": 1
+  },
+  {
+    "id": "14",
+    "question": "Which indexing type is used for exact match searches?",
+    "options": ["B-Tree", "Hash", "Bitmap", "Clustered"],
+    "answer_index": 1
+  },
+  {
+    "id": "15",
+    "question": "Which type of key uniquely identifies a row in a table?",
+    "options": ["Primary Key", "Foreign Key", "Composite Key", "Candidate Key"],
+    "answer_index": 0
+  },
+  {
+    "id": "16",
+    "question": "Which command removes all rows but keeps table structure?",
+    "options": ["DELETE", "DROP", "TRUNCATE", "REMOVE"],
+    "answer_index": 2
+  },
+  {
+    "id": "17",
+    "question": "Which type of DBMS allows many-to-many relationships?",
+    "options": ["Relational", "Hierarchical", "Network", "Object-oriented"],
+    "answer_index": 2
+  },
+  {
+    "id": "18",
+    "question": "Which of these is a non-volatile storage?",
+    "options": ["Cache", "RAM", "Disk", "Register"],
+    "answer_index": 2
+  },
+  {
+    "id": "19",
+    "question": "What does a candidate key do?",
+    "options": [
+      "Selects one column as primary key",
+      "Uniquely identifies a row",
+      "Enforces referential integrity",
+      "Performs aggregation"
+    ],
+    "answer_index": 1
+  },
+  {
+    "id": "20",
+    "question": "BCNF stands for?",
+    "options": [
+      "Boyce-Codd Normal Form",
+      "Binary Column Normal Form",
+      "Basic Codd Normalization Formula",
+      "Binary Codd Form"
+    ],
+    "answer_index": 0
+  }
+]

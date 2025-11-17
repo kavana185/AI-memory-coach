@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "question": "Which layer in OSI model deals with routing?",
+    "options": ["Transport Layer", "Network Layer", "Data Link Layer", "Session Layer"],
+    "answer_index": 1
+  },
+  {
+    "id": "2",
+    "question": "What protocol does HTTP run on?",
+    "options": ["TCP", "UDP", "IP", "SMTP"],
+    "answer_index": 0
+  },
+  {
+    "id": "3",
+    "question": "Which OSI layer is responsible for encryption and decryption?",
+    "options": ["Presentation Layer", "Session Layer", "Transport Layer", "Application Layer"],
+    "answer_index": 0
+  },
+  {
+    "id": "4",
+    "question": "Which layer provides end-to-end communication?",
+    "options": ["Transport Layer", "Network Layer", "Data Link Layer", "Physical Layer"],
+    "answer_index": 0
+  },
+  {
+    "id": "5",
+    "question": "IP addresses operate at which OSI layer?",
+    "options": ["Transport Layer", "Network Layer", "Data Link Layer", "Session Layer"],
+    "answer_index": 1
+  },
+  {
+    "id": "6",
+    "question": "MAC addresses operate at which OSI layer?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "answer_index": 1
+  },
+  {
+    "id": "7",
+    "question": "Which layer handles flow control and error detection?",
+    "options": ["Data Link Layer", "Transport Layer", "Network Layer", "Application Layer"],
+    "answer_index": 1
+  },
+  {
+    "id": "8",
+    "question": "Which layer establishes, manages, and terminates sessions?",
+    "options": ["Presentation Layer", "Session Layer", "Application Layer", "Transport Layer"],
+    "answer_index": 1
+  },
+  {
+    "id": "9",
+    "question": "SMTP protocol works on which port by default?",
+    "options": ["25", "80", "110", "443"],
+    "answer_index": 0
+  },
+  {
+    "id": "10",
+    "question": "Which layer is responsible for data encapsulation into frames?",
+    "options": ["Data Link Layer", "Network Layer", "Transport Layer", "Application Layer"],
+    "answer_index": 0
+  },
+  {
+    "id": "11",
+    "question": "DNS resolves domain names to?",
+    "options": ["IP addresses", "MAC addresses", "Port numbers", "Gateway addresses"],
+    "answer_index": 0
+  },
+  {
+    "id": "12",
+    "question": "Which protocol provides reliable data transfer over IP?",
+    "options": ["TCP", "UDP", "ICMP", "ARP"],
+    "answer_index": 0
+  },
+  {
+    "id": "13",
+    "question": "UDP provides which type of delivery?",
+    "options": ["Connectionless", "Connection-oriented", "Reliable", "Encrypted"],
+    "answer_index": 0
+  },
+  {
+    "id": "14",
+    "question": "Which OSI layer interacts directly with software applications?",
+    "options": ["Application Layer", "Transport Layer", "Session Layer", "Presentation Layer"],
+    "answer_index": 0
+  },
+  {
+    "id": "15",
+    "question": "Which layer translates data from one format to another?",
+    "options": ["Presentation Layer", "Application Layer", "Transport Layer", "Network Layer"],
+    "answer_index": 0
+  },
+  {
+    "id": "16",
+    "question": "Which protocol is used to transfer files over the internet?",
+    "options": ["FTP", "HTTP", "SMTP", "DNS"],
+    "answer_index": 0
+  },
+  {
+    "id": "17",
+    "question": "Ping command uses which protocol?",
+    "options": ["ICMP", "TCP", "UDP", "HTTP"],
+    "answer_index": 0
+  },
+  {
+    "id": "18",
+    "question": "Which device operates at the Data Link layer?",
+    "options": ["Switch", "Router", "Hub", "Gateway"],
+    "answer_index": 0
+  },
+  {
+    "id": "19",
+    "question": "Which device operates at the Network layer?",
+    "options": ["Router", "Switch", "Hub", "Repeater"],
+    "answer_index": 0
+  },
+  {
+    "id": "20",
+    "question": "Which layer defines physical cabling and electrical signals?",
+    "options": ["Physical Layer", "Data Link Layer", "Network Layer", "Transport Layer"],
+    "answer_index": 0
+  }
+]

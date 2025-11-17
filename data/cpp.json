@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "question": "Time complexity of binary search?",
+    "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+    "answer_index": 1
+  },
+  {
+    "id": "2",
+    "question": "Keyword to define constant in C++?",
+    "options": ["let", "final", "const", "define"],
+    "answer_index": 2
+  },
+  {
+    "id": "3",
+    "question": "Default access modifier for class members?",
+    "options": ["public", "private", "protected", "friend"],
+    "answer_index": 1
+  },
+  {
+    "id": "4",
+    "question": "Which operator is used for scope resolution?",
+    "options": ["::", "->", ".", "::=", ":"],
+    "answer_index": 0
+  },
+  {
+    "id": "5",
+    "question": "Keyword to allocate memory dynamically?",
+    "options": ["malloc", "new", "alloc", "create"],
+    "answer_index": 1
+  },
+  {
+    "id": "6",
+    "question": "Which of these is a reference variable?",
+    "options": ["int &ref = a;", "int *ref = &a;", "int ref = a;", "int ref* = a;"],
+    "answer_index": 0
+  },
+  {
+    "id": "7",
+    "question": "Which keyword is used to inherit a class?",
+    "options": ["extends", "implements", ":", "inherits"],
+    "answer_index": 2
+  },
+  {
+    "id": "8",
+    "question": "Default return type of constructor?",
+    "options": ["int", "void", "none", "depends"],
+    "answer_index": 2
+  },
+  {
+    "id": "9",
+    "question": "Which operator is used to access members of a pointer to object?",
+    "options": [".", "->", "*.", "&&"],
+    "answer_index": 1
+  },
+  {
+    "id": "10",
+    "question": "Which STL container stores elements in key-value pairs?",
+    "options": ["vector", "list", "map", "stack"],
+    "answer_index": 2
+  },
+  {
+    "id": "11",
+    "question": "Keyword to define template in C++?",
+    "options": ["template", "generic", "type", "function"],
+    "answer_index": 0
+  },
+  {
+    "id": "12",
+    "question": "Which header is required for std::cout?",
+    "options": ["<stdio.h>", "<iostream>", "<iomanip>", "<ostream>"],
+    "answer_index": 1
+  },
+  {
+    "id": "13",
+    "question": "Which operator is used for bitwise AND?",
+    "options": ["&", "|", "^", "&&"],
+    "answer_index": 0
+  },
+  {
+    "id": "14",
+    "question": "Which of these is correct syntax to define a class?",
+    "options": ["class A {}", "class A();", "class A[] {}", "class A <> {}"],
+    "answer_index": 0
+  },
+  {
+    "id": "15",
+    "question": "Which of the following is used for exception handling?",
+    "options": ["try-catch", "if-else", "switch-case", "for-loop"],
+    "answer_index": 0
+  },
+  {
+    "id": "16",
+    "question": "Which keyword is used to prevent inheritance of a class?",
+    "options": ["final", "sealed", "const", "private"],
+    "answer_index": 0
+  },
+  {
+    "id": "17",
+    "question": "Which container provides FIFO (First In First Out)?",
+    "options": ["stack", "queue", "vector", "map"],
+    "answer_index": 1
+  },
+  {
+    "id": "18",
+    "question": "Which operator is used to delete dynamically allocated memory?",
+    "options": ["delete", "free", "remove", "erase"],
+    "answer_index": 0
+  },
+  {
+    "id": "19",
+    "question": "What does 'inline' keyword suggest to compiler?",
+    "options": ["inline function expansion", "private function", "global variable", "constant variable"],
+    "answer_index": 0
+  },
+  {
+    "id": "20",
+    "question": "Which of these is NOT a valid C++ access specifier?",
+    "options": ["public", "private", "protected", "internal"],
+    "answer_index": 3
+  }
+]

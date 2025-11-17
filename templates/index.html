@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Memory Coach</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  
+  <div id="app">
+    <!-- Login/Register -->
+    <div id="auth-section" class="card">
+      <h2>AI Memory Coach</h2>
+      <input id="username" type="text" placeholder="Username">
+      <input id="password" type="password" placeholder="Password">
+      <button onclick="login()">Login</button>
+      <button onclick="register()">Register</button>
+      <p id="auth-message"></p>
+    </div>
+
+    <!-- Dashboard -->
+    <div id="dashboard" class="hidden">
+      <header>
+        <h2>AI Memory Coach</h2>
+        <div class="top-buttons">
+          <!-- Desktop logout button -->
+          <button class="desktop-logout" onclick="logout()">Logout</button>
+
+          <!-- Mobile menu -->
+          <div class="mobile-menu">
+            <button id="mobile-menu-btn">&#x22EE;</button>
+            <div id="mobile-menu-content" class="hidden">
+              <button onclick="logout()">Logout</button>
+              <button onclick="showStats()">Your Stats</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="dashboard-layout">
+        <!-- Left: flashcards and quiz -->
+        <div class="left-section">
+          <div class="domain-select">
+            <select id="domain-select">
+              <option value="cpp">C++</option>
+              <option value="cn">Computer Networks</option>
+              <option value="dbms">DBMS</option>
+              <option value="english">English</option>
+            </select>
+            <button onclick="loadFlashcards()">Start Revision</button>
+          </div>
+
+          <div class="flashcard-area">
+            <h3 class="title">Flashcards</h3>
+            <p id="flashcard-message" class="message"></p>
+            <div id="flashcard" class="card hidden">
+              <h3 id="question"></h3>
+              <p id="answer"></p>
+              <button onclick="nextCard()">Next</button>
+            </div>
+          </div>
+
+          <div class="quiz-area">
+            <div class="quiz-header">
+              <h3 class="title">Quiz</h3>
+              <button id="start-quiz-btn" onclick="startQuiz()">Start Quiz</button>
+            </div>
+            <div id="quiz-section" class="card hidden">
+              <h3 id="quiz-question"></h3>
+              <div id="quiz-options"></div>
+              <p id="quiz-feedback"></p>
+              <button id="quiz-next-btn">Next</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: stats panel (desktop only, hidden on mobile) -->
+        <div id="stats-panel" class="right-section">
+          <h3>Your Stats</h3>
+          <ul id="stats-list"></ul>
+          <button onclick="showStats()">Refresh Stats</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu toggle script -->
+  <script>
+    const menuBtn = document.getElementById('mobile-menu-btn');
+    const menuContent = document.getElementById('mobile-menu-content');
+    menuBtn?.addEventListener('click', () => {
+      menuContent.classList.toggle('hidden');
+    });
+  </script>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

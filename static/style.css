@@ -1,0 +1,332 @@
+/* ===== Body & Global ===== */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  color: #eee;
+}
+
+/* ===== App Container ===== */
+#app {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* ===== Cards ===== */
+.card {
+  background: #1f1f1f;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.7);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  color: #eee;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.8);
+}
+
+/* ===== Inputs & Select ===== */
+input, select {
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 12px 15px;
+  border-radius: 12px;
+  border: 1px solid #555;
+  background: #2c2c2c;
+  color: #eee;
+  font-size: 1rem;
+}
+
+input:focus, select:focus {
+  border-color: #ff9f43;
+  outline: none;
+}
+
+/* ===== Buttons ===== */
+button {
+  margin: 8px 0;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #6b6967;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #e88e23;
+  transform: translateY(-1px);
+}
+
+/* ===== Hidden ===== */
+.hidden { display: none; }
+
+/* ===== Header ===== */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.top-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.top-buttons .desktop-logout {
+  display: block;
+}
+
+.mobile-menu {
+  display: none;
+  position: relative;
+}
+
+.mobile-menu button {
+  font-size: 1.5rem;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#mobile-menu-content {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #2c2c2c;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.7);
+  display: flex;
+  flex-direction: column;
+  min-width: 140px;
+  padding: 10px;
+  z-index: 10;
+}
+
+#mobile-menu-content button {
+  margin: 5px 0;
+  width: 100%;
+}
+
+/* ===== Dashboard Layout ===== */
+.dashboard-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+
+/* ===== Left Section ===== */
+.left-section {
+  flex: 1 1 600px;
+  min-width: 350px;
+  max-width: 650px;
+  padding: 10px;
+}
+
+/* Domain select area */
+.domain-select {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.domain-select select {
+  flex: 1;
+}
+
+/* Flashcards title */
+.flashcard-area h3.title {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ff9f43;
+  text-align: left;
+}
+
+/* Quiz section header */
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#quiz-section h3.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ff9f43;
+}
+
+/* ===== Right Section (Stats) ===== */
+.right-section {
+  flex: 0 0 280px;
+  max-width: 280px;
+  background: #2c2c2c;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+  overflow-y: auto;
+  height: fit-content;
+  margin-left: 10vw;
+  flex-shrink: 0;
+}
+
+.right-section h3 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.right-section button {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.right-section ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.right-section li {
+  margin: 6px 0;
+  background: #1f1f1f;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  font-weight: 500;
+}
+
+/* ===== Flashcard Area ===== */
+.flashcard-area {
+  margin-top: 20px;
+}
+
+#flashcard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#flashcard p {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+/* ===== Quiz Section ===== */
+#quiz-section {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  background: #1f1f1f;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+}
+
+#quiz-options button {
+  display: block;
+  margin: 8px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background: #ff9f43;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#quiz-options button:hover {
+  background: #e88e23;
+}
+
+#quiz-feedback {
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* ===== Modal ===== */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #2c2c2c;
+  color: #eee;
+  padding: 25px 30px;
+  border-radius: 15px;
+  min-width: 320px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.7);
+  position: relative;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-content button {
+  margin-top: 20px;
+  background: #ff9f43;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background: #1b32de;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 900px) {
+  .dashboard-layout {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .left-section, .right-section {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: auto;
+    margin: 0;
+  }
+  .right-section {
+    order: 2;
+  }
+  .desktop-logout { display: none; }
+  .mobile-menu { display: block; }
+}
