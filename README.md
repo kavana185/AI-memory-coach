@@ -109,22 +109,7 @@ source venv/bin/activate
 
 ``` bash
 Flask==3.0.2
-Werkzeug==3.0.1
-itsdangerous==2.1.2
-Jinja2==3.1.3
-
-# For handling CORS (optional but recommended)
 Flask-Cors==4.0.0
-
-# For password hashing (secure login)
-bcrypt==4.1.2
-
-# For spaced repetition timestamps
-python-dateutil==2.9.0
-
-# To ensure JSON file safety
-simplejson==3.19.2
-
 ```
 
 ------------------------------------------------------------------------
