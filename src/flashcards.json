@@ -1,0 +1,58 @@
+{
+  "english": [
+    {
+      "id": 1,
+      "question": "Choose the correct sentence.",
+      "options": ["He don't like it.", "He doesn't like it.", "He didn't liked it.", "He not likes it."],
+      "answer_index": 1
+    },
+    {
+      "id": 2,
+      "question": "Pick the synonym of 'rapid'.",
+      "options": ["slow", "steady", "quick", "distant"],
+      "answer_index": 2
+    }
+  ],
+  "cpp": [
+    {
+      "id": 101,
+      "question": "Which is the correct way to declare a vector of ints?",
+      "options": ["vector<int> v;", "vector v<int>;", "vector<int> v();", "int vector<> v;"],
+      "answer_index": 0
+    },
+    {
+      "id": 102,
+      "question": "What does 'RAII' stand for?",
+      "options": ["Resource Acquisition Is Initialization", "Random Access Inheritance Interface", "Run-time Access to Inline Initialization", "Resource Allocation in Initialization"],
+      "answer_index": 0
+    }
+  ],
+  "dbms": [
+    {
+      "id": 201,
+      "question": "Which normal form removes repeating groups?",
+      "options": ["1NF", "2NF", "3NF", "BCNF"],
+      "answer_index": 0
+    },
+    {
+      "id": 202,
+      "question": "Which SQL command is used to remove a table?",
+      "options": ["DELETE TABLE", "DROP TABLE", "REMOVE TABLE", "ERASE TABLE"],
+      "answer_index": 1
+    }
+  ],
+  "cn": [
+    {
+      "id": 301,
+      "question": "Which layer of OSI handles routing between networks?",
+      "options": ["Data Link", "Transport", "Network", "Application"],
+      "answer_index": 2
+    },
+    {
+      "id": 302,
+      "question": "What does TCP provide?",
+      "options": ["unreliable, connectionless service", "reliable, connection-oriented service", "only multiplexing", "only flow control"],
+      "answer_index": 1
+    }
+  ]
+}
